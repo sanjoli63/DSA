@@ -2,13 +2,10 @@
 using namespace std;
 class student
 {
-public:
-    int rollNumber;
-
-private:
     int age;
 
-public:
+    public:
+    int rollNumber;
     void display()
     {
         cout << age << " " << rollNumber << endl;
@@ -17,10 +14,11 @@ public:
     {
         return age;
     }
-    void setAge(int a){
-        if(a>0)
+    void setAge(int a)
+    {
+        if (a > 0)
         {
-            return ;
+            return;
         }
         age = a;
     }
