@@ -9,6 +9,6 @@ int main()
     //dynamic string
     string *sp = new string;
     *sp ="mno";
-    cout<<sp<<endl;
-    cout<<*sp<<endl;
+    cout<<sp<<endl; //address
+    cout<<*sp<<endl; //string
 }
