@@ -13,4 +13,5 @@ int main()
     student *s3= new student;
     s3->display();
     student s4(102);
+    student s5(30,100);
 }
