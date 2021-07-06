@@ -5,6 +5,20 @@ class student
     int age;
 
     public:
+
+    //default constructor
+    student()
+    {
+        cout<< "contructor called"<<endl;
+    }
+
+    //paremetrised constructor
+     student(int r)
+     {
+        cout<<"constructor 2"<<endl;
+        rollNumber = r;
+        cout<<r<<endl;
+     }
     int rollNumber;
     void display()
     {

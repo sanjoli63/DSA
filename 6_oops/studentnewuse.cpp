@@ -5,9 +5,12 @@ using namespace std;
 int main()
 {
     student s1;
-    student *s2 = new student;
-    s1.setAge(20);
-    s2->setAge(30);
+    student s2;
+
     s1.display();
-    s2->display();
+    s2.display();
+
+    student *s3= new student;
+    s3->display();
+    student s4(102);
 }
